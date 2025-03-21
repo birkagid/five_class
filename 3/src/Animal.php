@@ -13,7 +13,8 @@ class Animal
         $this->species = $species;
     }
 
-    public function makeSound(): string {
+    public function makeSound(): string
+    {
         return "Животное издаёт звук";
     }
 }

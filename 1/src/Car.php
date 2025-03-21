@@ -15,7 +15,7 @@ class Car
         $this->mileage = $mileage;
     }
 
-    public function getInfo()
+    public function getInfo(): string
     {
         return "Машина: {$this->mark}, модель: {$this->model}, год: {$this->yearRelease}, пробег: {$this->mileage} км";
     }
